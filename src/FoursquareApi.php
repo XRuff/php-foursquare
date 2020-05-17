@@ -1,4 +1,7 @@
 <?php
+
+namespace XRuff\Foursquare;
+
 /**
  * FoursquareApi
  * A PHP-based Foursquare client library with a focus on simplicity and ease of integration

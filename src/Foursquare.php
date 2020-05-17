@@ -4,7 +4,7 @@ declare(strict_types = 1);
 
 namespace XRuff\Foursquare;
 
-class Foursquare extends \FoursquareApi {
+class Foursquare extends FoursquareApi {
 
 	/** @var string $selfUrl The url for obtaining user basic information */
 	private $selfUrl = 'users/self';
