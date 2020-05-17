@@ -27,7 +27,7 @@ define("HTTP_POST","POST");
  * access token for a user via Foursquare web authentication
  */
 
-class FoursquareApiException extends Exception {}
+class FoursquareApiException extends \Exception {}
 
 class FoursquareApi {
 	
