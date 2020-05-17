@@ -4,7 +4,12 @@
     "require": {
         "php": ">=5.2.0"
     },
+    "require-dev": {
+        "tracy/tracy": "^2.7"
+    },
     "autoload": {
-        "psr-0": { "FoursquareApi": "src/" }
+        "psr-4": {
+            "XRuff\\Foursquare\\": "src/"
+        }
     }
 }
